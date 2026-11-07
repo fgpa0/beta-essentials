@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.betaessentials.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BaseInteractionMixin",
+    "ClientPlayerMixin",
+    "CreateLevelMixin",
+    "CreeperMixin",
+    "DimensionFileAccessor",
+    "EntityAccessor",
+    "EntityBaseMixin",
+    "FireballMixin",
+    "FireMixin",
+    "GameRendererMixin",
+    "ItemEntityMixin",
+    "LevelDataAccessor",
+    "LevelMixin",
+    "LevelPropertiesMixin",
+    "LivingMixin",
+    "MinecraftMixin",
+    "MovementManagerMixin",
+    "OptionsMixin",
+    "PauseMixin",
+    "PlayerBaseMixin",
+    "ScreenBaseMixin",
+    "SinglePlayerInteractionMixin",
+    "ui.ImageDownloadMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "beta-essentials",
+  "version": "0.1.0",
+  "name": "Beta Essentials",
+  "description": "Single-player commands, game rules, creative and spectator modes and a cheats switch for Minecraft Beta 1.7.3: /time, /weather, /gamemode, /gamerule, /give, /tp, homes, /back, /spawn and more.",
+  "authors": [
+    "Beta Essentials contributors"
+  ],
+  "contact": {
+    "sources": "https://github.com/fgpa0/beta-essentials",
+    "issues": "https://github.com/fgpa0/beta-essentials/issues"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "beta-essentials.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.0.0-beta.7.3"
+  }
+}
